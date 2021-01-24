@@ -1,3 +1,4 @@
+<meta http-equiv="refresh" content="30">
 <html><head></head><body><center>
 <?php $link = $_SERVER['HTTP_HOST']; ?>
 Instaltion take about 15~20 minutes. Contact <a href="https://whmcs.the-entertainment.com/submitticket.php" target="_blank">Support</a> if need more assistant!<br><br>
@@ -13,67 +14,67 @@ Instaltion take about 15~20 minutes. Contact <a href="https://whmcs.the-entertai
 </tr>
 <tr>
 <td>Netdata</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;">Installing...</td>
 </tr>
 <tr>
 <td>SSH</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>LAMP</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Emby</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Jellyfin</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Simple</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Base</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>File Run</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Dependent</td>
-<td style="text-align: center;">Waiting...</td>
-</tr>
+<td style="text-align: center;"></td>
+</tr>a
 <tr>
 <td>qBittorrent</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Rclone</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>FTP</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Peerflix</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Config</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Restart</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Final</td>
-<td style="text-align: center;">Waiting...</td>
+<td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
