@@ -1,12 +1,3 @@
-<?php
-    session_name('controlpanel');
-    session_start();
-
-    if (!isset($_SESSION['username'])) {
-        header('Location: ../panel/login.php');
-        exit();
-    }
-?>
 <html><head></head><body><center>
 <?php $link = $_SERVER['HTTP_HOST']; ?>
 Instaltion take about 15~20 minutes. Contact <a href="https://whmcs.the-entertainment.com/submitticket.php" target="_blank">Support</a> if need more assistant!<br><br>
@@ -17,7 +8,7 @@ Click <a href="http://<?php echo "$link";?>">HERE</a> to go to Home Page when Ex
 var refreshtime=10;
 function tc()
 {
-asyncAjax("GET","log.php",Math.random(),display,{});
+asyncAjax("GET","firstinstalllog.php",Math.random(),display,{});
 setTimeout(tc,refreshtime);
 }
 function display(xhr,cdat)
