@@ -8,7 +8,7 @@ Click <a href="http://<?php echo "$link";?>">HERE</a> to go to Home Page when Ex
 var refreshtime=10;
 function tc()
 {
-asyncAjax("GET","installlog.php",Math.random(),display,{});
+asyncAjax("GET","log.php",Math.random(),display,{});
 setTimeout(tc,refreshtime);
 }
 function display(xhr,cdat)
