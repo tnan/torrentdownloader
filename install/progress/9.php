@@ -47,7 +47,7 @@ Instaltion take about 15~20 minutes. Contact <a href="https://whmcs.the-entertai
 <tr>
 <td>Dependent</td>
 <td style="text-align: center;">Installing...</td>
-</tr>a
+</tr>
 <tr>
 <td>qBittorrent</td>
 <td style="text-align: center;"></td>
