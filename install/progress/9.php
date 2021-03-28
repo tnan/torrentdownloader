@@ -1,7 +1,8 @@
 <meta http-equiv="refresh" content="30">
 <html><head></head><body><center>
 <?php $link = $_SERVER['HTTP_HOST']; ?>
-Instaltion take about 15~20 minutes. Contact <a href="https://whmcs.the-entertainment.com/submitticket.php" target="_blank">Support</a> if need more assistant!<br><br>
+Installation take about 15~20 minutes. Contact <a href="https://whmcs.the-entertainment.com/submitticket.php" target="_blank">Support</a> if need more assistant!<br>
+<?php echo "".date("F d Y - H:i:s A",filemtime("log.php")); ?><br>
 <table style="width: 100%;" border="1">
 <tbody>
 <tr>
