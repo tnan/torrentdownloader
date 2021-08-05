@@ -1,4 +1,6 @@
+<center>
 <p id="demo"></p>
+</center>
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("XXX").getTime();
