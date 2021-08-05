@@ -1,4 +1,4 @@
-<center>1
+<center>
 <p id="demo"></p>
 </center>
 <script>
