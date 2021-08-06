@@ -1,5 +1,5 @@
 <center>
-<p id="demo"></p>
+<p id="demo" style="margin-top: 0px"></p>
 </center>
 <script>
 // Set the date we're counting down to
