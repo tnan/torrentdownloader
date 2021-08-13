@@ -8,4 +8,4 @@
     }
 ?>
 <link href="../css/style.css" rel="stylesheet">
-<iframe frameBorder="0" width="100%" height="100%" src="reboot_extend_default.php"></iframe>
+<iframe frameBorder="0" width="100%" height="100%" src="reboot_schedule_default.php"></iframe>
