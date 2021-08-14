@@ -3,7 +3,7 @@
     session_start();
 
     if (!isset($_SESSION['username'])) {
-        header('Location: reboot_extend_login.php');
+        header('Location: reboot_schedule_login.php');
         exit();
     }
 ?>
