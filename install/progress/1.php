@@ -1,88 +1,51 @@
 <meta http-equiv="refresh" content="30">
-<html><head></head><body><center>
 <?php $link = $_SERVER['HTTP_HOST']; ?>
-Installation take about 15~20 minutes. Contact <a href="https://whmcs.the-entertainment.com/submitticket.php" target="_blank">Support</a> if need more assistant!<br>
-<?php echo "".date("F d Y - H:i:s A",filemtime("log.php")); ?><br>
-<table style="width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 50%; text-align: center;">Name</td>
-<td style="width: 50%; text-align: center;">Status</td>
-</tr>
-<tr>
-<td>Requirement</td>
-<td style="text-align: center;">Done</td>
-</tr>
-<tr>
-<td>Netdata</td>
-<td style="text-align: center;">Installing...</td>
-</tr>
-<tr>
-<td>SSH</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>LAMP</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>Emby</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>Jellyfin</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>Simple</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>Base</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>File Run</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>Dependent</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>qBittorrent</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>Rclone</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>FTP</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>Peerflix</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>Config</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>Restart</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>Final</td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
-<br>
-Click <a href="http://<?php echo "$link";?>">HERE</a> to go to Home Page when Execution Done!<br><br>
-<img width="100%" height="10" src="https://whmcs.the-entertainment.com/te-services/torrent-services/image/loading.gif"><br><br>
-<div id="feed"></div>
+<style>
+.progress {
+  width: 100%;
+  max-width: 100%;
+  height: 30px;
+  background: #e1e4e8;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress .progress-bar {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #ffd33d, #ea4aaa 17%, #b34bff 34%, #01feff 51%, #ffd33d 68%, #ea4aaa 85%, #b34bff);
+  background-size: 300% 100%;
+  -webkit-animation: progress-animation 2s linear infinite;
+          animation: progress-animation 2s linear infinite;
+}
+
+@-webkit-keyframes progress-animation {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+
+@keyframes progress-animation {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+
+.center {
+  width: 99.5%;
+  height: 99%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+
 <script type="text/javascript">
 var refreshtime=10;
 function tc()
@@ -127,4 +90,61 @@ function asyncAjax(method,url,qs,callback,callbackData)
 }
 tc();
 </script>
-</center></body></html>
+
+<table style="width: 99%; height: 99%; margin-left: auto; margin-right: auto;" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; height: 100%;">
+<table style="width: 100%; margin-left: auto; margin-right: auto;" border="0">
+<tbody>
+<tr>
+<td><center>
+
+<table style="width: 80%; height: 260px;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+
+<tr>
+<td style="width: 100%; height: 30px;">
+<center><strong>
+10%
+</center></strong>
+</td>
+</tr>
+
+
+<tr>
+<td style="width: 100%; height: 30px;">
+<div class="progress">
+<span class="progress-bar" style="width: 10%"></span>
+</div>
+</td>
+</tr>
+
+
+<tr>
+<td style="width: 100%; height: 30px;">
+<center><strong>
+Installation take about 30~60 minutes. Click <a href="http://<?php echo "$link";?>">HERE</a> to go to Home Page when Execution Done! Contact <a href="https://whmcs.the-entertainment.com/submitticket.php" target="_blank">Support</a> if needed!
+</center></strong>
+</td>
+</tr>
+
+
+<tr>
+<td style="width: 100%; height: 200px;">
+<div id="feed"></div>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+
+</center></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
