@@ -106,7 +106,7 @@ tc();
 <tr>
 <td style="width: 100%; height: 30px;">
 <center><strong>
-10%
+20%
 </center></strong>
 </td>
 </tr>
@@ -115,7 +115,7 @@ tc();
 <tr>
 <td style="width: 100%; height: 30px;">
 <div class="progress">
-<span class="progress-bar" style="width: 10%"></span>
+<span class="progress-bar" style="width: 20%"></span>
 </div>
 </td>
 </tr>
